@@ -1,0 +1,29 @@
+/* Підключення шрифтів, які лежать у public/assets/fonts/ */
+@font-face {
+  font-family: 'Figtree';
+  src: url('/assets/fonts/Figtree-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('/assets/fonts/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800; /* Або 900, залежно від файлу */
+}
+
+/* Скидання стилів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Стилі для body, що центрують картку */
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: #f4d04e; /* Жовтий фон з дизайну */
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
